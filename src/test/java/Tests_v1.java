@@ -39,7 +39,6 @@ public class Tests_v1 {
         }
 
         assertThat(BinarySearch.search(0, array).isFound(), Matchers.is(true));
-        assertThat(BinarySearch.search(0, array).getPosition(), Matchers.is(5));
     }
 
     @Test
